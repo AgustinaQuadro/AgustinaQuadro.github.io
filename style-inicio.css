@@ -1,0 +1,115 @@
+.bg {
+    padding-top:20%;
+    background-image: url("https://images.pexels.com/photos/9478886/pexels-photo-9478886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height:100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+    display:block;
+}
+
+
+
+#texto_foto {
+    color:white;
+    margin-top:0;
+    text-align: center;
+
+}
+
+span {
+    margin-left:1%;
+    color:white;
+}
+
+h2 {
+    font-size:40px !important;
+    color:white;
+}
+
+.col {
+    margin-bottom:10%;
+    text-align: center;
+    
+}
+
+main h3{
+    margin-bottom:20px;
+    padding-top:1%;
+    padding-bottom:1%;
+    background-color: white;
+    border-radius: 20px;
+    color:rgb(34, 34, 34);
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.visible{
+    background-color: transparent;
+    color:white;
+    border-radius: 20px;
+    padding:1%;
+   
+}
+
+#mostrar_nombre {
+    color:white;
+    float:inline-start;
+
+}
+
+h4 {
+    text-align: center;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-bottom:3% !important;
+    
+    
+}
+
+
+
+h4 a {
+    text-decoration:none;
+    color:rgb(34, 34, 34);
+    
+    padding:10%;
+    border-radius: 53px;
+    background: #e0e0e0;
+    box-shadow:  22px 22px 44px #bebebe,
+             -22px -22px 44px #ffffff;
+    transition: box-shadow 0.6s, background 0.6s, color 0.6s;
+}
+
+h4 a:hover{
+    color:white;
+    border-radius: 53px;
+background: #292929;
+box-shadow:  22px 22px 44px #161616,
+             -22px -22px 44px #3c3c3c;
+}
+
+
+
+section h3 {
+    margin-top:3%;
+    margin-bottom:3%;
+    display:block;
+    border-radius: 20px;
+    padding:1%;
+    background-color:rgb(34, 34, 34);
+    color:white;
+}
+
+#diaSemanaSaludar {
+    color:rgb(117, 117, 117);
+    font-size:2em;
+    text-align: center;
+    visibility: hidden;
+    transition: visibility 0.3s;
+    
+}
+
+

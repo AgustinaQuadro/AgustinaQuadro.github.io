@@ -1,0 +1,54 @@
+main {
+    background: rgb(34, 34, 34);
+    color:white;
+    padding-top:5% !important;
+  
+            
+}
+main ul {
+    list-style-type: none;
+    float:left;
+    text-decoration:none;
+    margin-left:0;
+    
+}
+
+main h3 {
+    height:2%;
+    text-align: center;
+    display:block;
+    border:2px solid rgb(34, 34, 34);
+    border-radius: 20px;
+    padding:1%;
+    box-shadow:inset 12px 20px 24px rgb(27, 27, 27);
+   
+    
+   
+}
+
+h5{
+    margin-bottom:5% !important;
+    display:block;
+    
+}
+h4{
+    display:block;
+    color:rgb(125, 125, 125);
+}
+
+aside li {
+    text-decoration:none;
+    list-style-type:none;
+float:left;
+}
+h5 {
+    width:5%;
+}
+.codigo {
+    margin-top:1%;
+    padding-right:1%;
+}
+
+.herramientas {
+    padding-left:1%;
+}
