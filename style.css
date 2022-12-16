@@ -17,6 +17,8 @@ header {
 ul {
     list-style-type: none; 
     margin-left:7%;
+    text-align: center;
+
   
     
    
@@ -24,10 +26,13 @@ ul {
 
 nav li {
     float: left;
-    
+    padding-left:10%;
     padding-right:10%;
+    
+   
     margin-top:4%;
-    padding-left:3%;
+  
+   
     
 
     
@@ -39,6 +44,7 @@ li a {
     color:rgb(255, 255, 255) !important;
     font-size:20px;
     transition: box-shadow 0.3s, background-color 0.3s, color 0.3s, border-radius 0.3s;
+  
 }
 
 nav li a:hover {
