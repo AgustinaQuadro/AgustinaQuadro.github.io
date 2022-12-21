@@ -39,7 +39,7 @@ h4{
 aside li {
     text-decoration:none;
     list-style-type:none;
-float:left;
+    float:left;
 }
 
 .codigo {
@@ -54,4 +54,19 @@ float:left;
 hr {
     border-top:3px solid white !important;  
 
+}
+
+aside h3 {
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+aside section{
+    padding-top:2%;
+    margin-bottom:2%;
+}
+
+aside h4{
+    font-size: 1.7em;
+   
 }
