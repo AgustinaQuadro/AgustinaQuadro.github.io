@@ -9,6 +9,7 @@ legend {
     font-size: 2em !important;
 }
 
+
 label {
     color: rgb(99, 99, 100);
     font-size:1.2em;
@@ -77,5 +78,13 @@ small {
 
 hr {
     border:1px solid white !important;  
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1061px) {
+    legend {
+        padding-top:5% !important;
+        margin-top:5% !important;
+    }
+    
 }
 /**-internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));**/
