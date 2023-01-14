@@ -1,3 +1,52 @@
-#stop {
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+body{
+    color:black;
+}
+.hidden {
     display:none;
+}
+header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-top:10%;
+
+}
+main {
+    text-align: center;
+    margin-top:6%;
+    font-size:2rem;
+
+}
+h2, h3 {
+    font-family: 'Padyakke Expanded One', cursive;
+    display:inline;
+}
+
+section{
+    text-align: center;
+    margin-top:5%;
+    
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding:1%;
+    border-radius: 20px;
+    transition: background-color, color, 0.4s ;
+}
+
+button:hover {
+    background-color: black;
+    color:white;
+}
+small {
+    font-family: 'Montserrat', sans-serif;
+    font-size:1rem;
 }
