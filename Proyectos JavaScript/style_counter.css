@@ -5,7 +5,9 @@
 
 }
 body{
-    color:black;
+    
+    height:100%;
+    width:100%;
 }
 .hidden {
     display:none;
@@ -14,7 +16,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 2rem;
-    padding-top:10%;
+    padding-top:8%;
 
 }
 main {
@@ -49,4 +51,18 @@ button:hover {
 small {
     font-family: 'Montserrat', sans-serif;
     font-size:1rem;
+}
+
+#night {
+    border:none;
+    padding:0.5%;
+   
+    text-align: center;
+
+}
+
+aside {
+    text-align: center;
+    margin-top:2%;
+
 }
