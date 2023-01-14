@@ -3,7 +3,12 @@ function count(){
     var countSecond= 0;
     var countMinute=0;
     var countHour=0;
-    document.getElementById("stop").addEventListener("click", stop)
+    var control=false;
+    document.getElementById("stop").addEventListener("click", function() {
+        control=true;
+    });
+
+
    
    
     
@@ -23,44 +28,20 @@ function count(){
                 
             }
          }
+         if (control==false){
          setTimeout(counterSecond,1000);
+         }
+         else if (control==true){
+            clearTimeout();
+            
+         }
+         
          
         }
-    counterSecond();
-    function stop () {
-    clearTimeout();
-}
-stop()
-}
+    
+        counterSecond();
+    
+    }
 
 
 count();
-
-/*
-    function counterMinute (){
-        
-   
-         document.getElementById("minute").innerHTML=countMinute;
-         countMinute++;
-         setTimeout(counterMinute,60000);
-
-    }
-    function counterHour() {
-        document.getElementById("hour").innerHTML=countHour;
-   
-        countHour++;
-        setTimeout(counterHour,2400000);
-    }
-
- 
-    counterSecond();
-    counterMinute();
-    counterHour();
-
-
-}
-count();
-
-
-
-*/
