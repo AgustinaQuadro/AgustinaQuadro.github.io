@@ -15,17 +15,21 @@ function count(){
     function counterSecond(){
    
          document.getElementById("second").innerHTML=countSecond;
+         document.getElementById("minute").innerHTML=countMinute;
+         document.getElementById("hour").innerHTML=countHour;
 
          countSecond++;
    
          if (countSecond==60){
             countMinute++;
-            document.getElementById("minute").innerHTML=countMinute;
+            
+            countSecond=0;
             
             if (countMinute==60){
                 countHour++;
-                document.getElementById("hour").innerHTML=countHour;
-                
+               
+                countMinute=0;
+               
             }
          }
          if (control==false){
