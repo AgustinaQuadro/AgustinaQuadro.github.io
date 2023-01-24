@@ -89,6 +89,15 @@ details:hover{
              -22px -22px 44px #3c3c3c;
 }
 
+details a {
+    text-decoration: none;
+    transition: color, 0.6s;
+    
+}
+
+details a:hover {
+    color:white;
+}
 
 
 section h3 {
